@@ -131,7 +131,7 @@ in Lua. The resolved result of Promise object return by `async` function will be
 via `{...}`. However, the result handled by `await` will be unpacked and return multiple values.
 
 ```lua
-local async = require('async')
+local async = require('promise-async')
 
 local function f()
     return 1, 2, 3
